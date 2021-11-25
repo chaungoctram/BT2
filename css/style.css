@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  /* position: fixed; */
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.left {
+  margin-right: 250px;
+}
+
+nav {
+  display: flex;
+}
+
+.navbar-nav a {
+  padding: 5px;
+  margin: 20px;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #1a2f33;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link > * {
+  margin: 0 20px;
+}
+
+.choose {
+  margin-left: 300px;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+.navbar-nav ul {
+  /* position: absolute; */
+  background-color: orange;
+  top: 100%;
+  /* width: 200px; */
+  /* left: 0; */
+  visibility: hidden;
+  transition: all 0.5s;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.navbar-nav:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+header button {
+  padding: 0 30px;
+  background-color: #f39c12;
+  color: #1a2f33;
+  height: 50px;
+  line-height: 54px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0 30px;
+  background-color: #f39c12;
+  color: #1a2f33;
+  height: 50px;
+  line-height: 54px;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: translateY(10px);
+}
+
+i {
+  margin: 10px;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.carousel-inner h1 {
+  font-size: 90px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+table {
+  letter-spacing: 2px;
+  /* line-height: 37px; */
+  /* padding: 30px 10px; */
+  border-collapse: separate;
+  border-spacing: 5px 0;
+  margin: 5px;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+.part1 {
+  display: flex;
+  padding: 27px;
+  margin: 20px 20px;
+  background-color: white;
+  width: 1480px;
+  height: 450px;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.part1 h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+.info {
+  width: 550px;
+  margin: 30px;
+  margin: 10px 50px;
+}
+
+.part2 {
+  margin: 30px 0 20px 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.part2 h1 {
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+.reason {
+  display: flex;
+  justify-content: center;
+  /* margin: 0 20px; */
+}
+
+.rs1 {
+  text-align: center;
+  width: 380px;
+  margin: 30px;
+}
+
+.rs2 {
+  text-align: center;
+  width: 350px;
+  margin: 30px;
+}
+
+.rs3 {
+  text-align: center;
+  width: 350px;
+  margin: 30px;
+}
+
+.part3 {
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}
+
+.part3:hover {
+  transform: translateY(-30px);
+}
+
+.part3 h1 {
+  font-size: 90px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+.time p {
+  color: #f39c12;
+}
+
+.content {
+  background-image: url(https://images.unsplash.com/photo-1614277786539-abd7a3cd46bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80);
+  width: 800px;
+  height: 380px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+  padding: 30px;
+  margin: 10px 10px;
+}
+
+.text h1 {
+  font-size: 80px;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.time {
+  width: 400px;
+  height: 380px;
+  background-color: white;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.time1 {
+  margin: 50px;
+}
+
+.part4 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.part4 h1 {
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+  color: #f39c12;
+}
+
+.type1 {
+  text-align: center;
+  width: 350px;
+  margin: 30px;
+  transition: all 0.5s;
+}
+
+.type1:hover {
+  opacity: 0.8;
+  transform: translateY(-30px);
+}
+
+.type2 {
+  text-align: center;
+  width: 350px;
+  margin: 30px;
+  transition: all 0.5s;
+}
+
+.type2:hover {
+  opacity: 0.8;
+  transform: translateY(-30px);
+}
+
+.type3 {
+  text-align: center;
+  width: 350px;
+  margin: 30px;
+  transition: all 0.5s;
+}
+
+.type3:hover {
+  opacity: 0.8;
+  transform: translateY(-30px);
+}
+
+.type4 {
+  text-align: center;
+  width: 350px;
+  margin: 30px;
+  transition: all 0.5s;
+}
+
+.type4:hover {
+  opacity: 0.8;
+  transform: translateY(-30px);
+}
+
+.part5 {
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1601972602288-3be527b4f18a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  width: 1150px;
+  height: 450px;
+  padding: 100px;
+  margin: 50px;
+  margin-left: 200px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s;
+}
+
+.part5:hover {
+  transform: translateY(-20px);
+}
+
+.part5 h1 {
+  font-size: 90px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+.part6 {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.part6 h1 {
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+.feed {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
+.feed h5 {
+  font-family: "Praise", cursive;
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.card-body {
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s;
+}
+
+.card-body:hover {
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+.kitu:hover i {
+  cursor: pointer;
+}
+
+.part7 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.part7 h1 {
+  font-size: 70px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+.feedback {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+}
+
+.last p {
+  /* padding: 0 200px; */
+  margin: 0 80px;
+}
+
+.last button {
+  margin-right: 50px;
+}
+
+.part8 {
+  background-image: url(https://images.unsplash.com/photo-1534080564583-6be75777b70a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+  width: 1150px;
+  height: 450px;
+  padding: 100px;
+  margin: 50px;
+  margin-left: 200px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  text-align: center;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.part8:hover {
+  transform: translateY(-10px);
+}
+
+.part8 input {
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.part8 h1 {
+  font-size: 90px;
+  letter-spacing: 3px;
+  font-family: "Praise", cursive;
+}
+
+.part9 {
+  display: flex;
+  justify-content: center;
+  color: #333;
+  /* visibility: hidden; */
+}
+
+.about {
+  width: 350px;
+  margin: 30px;
+}
+
+.part9 a {
+  font-family: "Josefin Sans", sans-serif;
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: 200px;
+}
+
+.part9 h2 {
+  font-family: "Praise", cursive;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.contact {
+  margin: 30px;
+}
+
+.gallery {
+  margin: 30px;
+}
+
+.anh {
+  margin-bottom: 20px;
+}
